@@ -1,0 +1,30 @@
+.mainContentGrid{
+    margin-top: calc(54px + 34px);
+    display: grid;
+    grid-template-columns: 1fr min(614px,100vw) 293px 1fr;
+    grid-template-areas: ". mainContent sideBar .";
+    gap: 29px;
+}
+@media (max-width:614px) {
+    .mainContentGrid{
+        margin-top: 54px;
+    }
+}
+.mainContentGrid .mainContent{
+    grid-area: mainContent;
+}
+.mainContentGrid .sideBar{
+    position: sticky;
+    grid-area: sideBar;
+}
+@media (max-width:976px) {
+    .mainContentGrid{
+        grid-template-columns: 1fr min(614px,100vw) 1fr;
+        grid-template-areas: ". mainContent .";
+        gap: 0px;
+        margin-bottom: calc(54px - 18px);
+    }
+    .mainContentGrid .sideBar{
+        display: none;
+    }
+}

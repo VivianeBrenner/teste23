@@ -1,0 +1,27 @@
+.displayLike {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px !important;
+  height: 100px !important;
+  opacity: 0;
+  animation: growAndFade 0.3s forwards;
+}
+.removeHearth {
+  width: 0px !important;
+  height: 0px !important;
+}
+@keyframes growAndFade {
+  0% {
+    width: 1px;
+    height: 1px;
+    transform: translate(-50%, -50%) scale(0.2);
+  }
+  100% {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

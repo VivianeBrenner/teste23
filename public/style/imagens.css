@@ -1,0 +1,126 @@
+/*Side Bar*/
+#hint1 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/e3cf59477416239.625318fa4601d.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#hint2 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/6cc4b1538516969.62f233b7232aa.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#hint3 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/704d2d757713.5ce8402309386.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#hint4 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/31da11500298631.6222242d7bdd2.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#hint5 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/b1c52e7018233.5de934f41c2d6.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+/**/
+#storyImg1 {
+  background-image: url(https://photos.enjoei.com.br/public/255x255/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9jYXJkX2xpc3RfaXRlbXMvMjE4ODU3NDIvOGJkNTAzZWMyNmVlYWRhOWYxODQ0MGQyOGFhZWM3Y2EuSlBH);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#storyImg2 {
+  background-image: url(https://photos.enjoei.com.br/public/255x255/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9jYXJkX2xpc3RfaXRlbXMvMjE4ODU3NDIvMWFlY2RmZjI2ODkwMDc2NDcxYmJiNzZjODQwNTU5YzQucG5n);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#storyImg3 {
+  background-image: url(https://photos.enjoei.com.br/public/255x255/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9jYXJkX2xpc3RfaXRlbXMvMjE4ODU3NDIvMmUwZDkzOWVkMTg5MGMyOWM5N2YzNGM4YmNiODQwZmUucG5n);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#storyImg4 {
+  background-image: url(https://photos.enjoei.com.br/public/255x255/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9jYXJkX2xpc3RfaXRlbXMvMjE4ODU3NDIvODczYmNjMzc4OWRmMDBjMzQxZWNhODZhNzk3MmNhNGEuSlBH);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#storyImg5 {
+  background-image: url(https://photos.enjoei.com.br/public/255x255/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9jYXJkX2xpc3RfaXRlbXMvNDcxOTI5L2ZhNmExYjhlYWVjNzc4OGVlOWEzNjA1OTgyM2U5ODIwLmpwZw);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#storyImg6 {
+  background-image: url(https://photos.enjoei.com.br/public/255x255/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9jYXJkX2xpc3RfaXRlbXMvMjE4ODU3NDIvYzQwNTU1NGM5MDVkYzQ3ZjkxNzg3ZTFjOTlhZGVkMzguanBn);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#storyImg7 {
+  background-image: url(https://photos.enjoei.com.br/public/255x255/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9jYXJkX2xpc3RfaXRlbXMvMjE4ODU3NDIvZWI5YzllNTgyYzg1YTQwYWNhNjVkMTg0YTUyZDZmZWEucG5n);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#storyImg8 {
+  background-image: url(https://photos.enjoei.com.br/public/255x255/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9jYXJkX2xpc3RfaXRlbXMvMzkxOTIxLzViZGIxN2YxNjllMTNkNDUxYmI5ODRkZmNhZjZlNGQ4LmpwZw);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+/* Feed */
+#userPostImg1 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/5745313.547c4922bbfc3.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#likeImgUser1 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d0457c66498239.5b17ff88a50f9.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  border-radius: 16px;
+}
+#userPostImg2 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/6c9e0c4221799.5c293f9a0dc01.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#likeImgUser2 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/5745313.547c4922bbfc3.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  border-radius: 16px;
+}
+#userPostImg3 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/2d894426022365.619283f11a919.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#imgFeed3 {
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/028/075/249/large/yury-ostapchuk-train-scene-07-scale-shot-warm.jpg?1593427044);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+#likeImgUser3 {
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/028/075/249/large/yury-ostapchuk-train-scene-07-scale-shot-warm.jpg?1593427044);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  border-radius: 16px;
+}

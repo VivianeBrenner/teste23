@@ -1,0 +1,76 @@
+.stories{
+    position: relative;
+    display: flex;
+    width: min(100%, 614px);
+    height: 118px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    overflow-block:auto;
+    overflow-x: hidden;
+}
+@media (max-width:614px) {
+    .stories{
+        background-color: #fafafa;
+        overflow-x: scroll;
+    }
+}
+.floatingStorieButton{
+    position: absolute;
+    bottom: calc(50% - 13px);
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.stories ion-icon{
+    position: absolute;
+    font-size: 26px;
+    color: white;
+}
+@media (max-width:614px) {
+    .floatingStorieButton{
+        display: none;
+    }
+}
+.stories #storiesSize{
+    height: 100%;
+    width: calc(100% - 18px);
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+    gap: 14px;
+}
+/**/
+#storiesSize div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+#storiesSize div img:nth-child(1){
+    width: 66px;
+    height: 66px;
+    border-radius: 30px;
+}
+#storiesSize div img:nth-child(2){
+    position: absolute;
+    top: 4.8px;
+    width: 56px;
+    height: 56px;
+    border-radius: 26px;
+}
+#storiesSize div p{
+    margin-top: 1px;
+    height: 19px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+}
