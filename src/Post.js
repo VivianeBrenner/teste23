@@ -43,7 +43,7 @@ export default function Post(props) {
         if (classesPost === "post") {
             setClassesPost("post post-curtido")
             setIconeCoracao("heart")
-            alteraCurtidas() 
+            alteraCurtidas(1) 
         }
     }
 
