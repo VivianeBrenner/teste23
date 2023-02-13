@@ -1,11 +1,12 @@
-import React from "react";
-const Story = (props) => (
-  <div>
-    <div>
-      <img src="./assets/stories_background.jpg" />
-      <img id={`storyImg${props.id}`} />
-      <p>{props.name}</p>
-    </div>
-  </div>
-);
-export default Story;
+export default function Story(props) {
+    return(
+        <div class="story">
+            <div class="imagem">
+                <img src={props.url} alt={props.usuario}/>
+            </div>
+            <div class="usuario">
+                {props.usuario}
+            </div>
+        </div>
+    )
+}

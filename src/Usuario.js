@@ -1,37 +1,39 @@
-import React, { useState } from "react";
+import { useState } from 'react'
 
-const Usuario = () => {
-  const [name, chanceName] = useState("user0911196");
-  const [img, chanceImg] = useState(
-    "https://mir-s3-cdn-cf.behance.net/user/115/89f32d10362213.5f8a195127eab.jpg"
-  );
+export default function Usuario() {
 
-  const userName = () => {
-    let newName = prompt("Digite seu nome");
-    if (newName.trim().length == 0 || newName === null || newName === undefined) {
-      return;
+    const [usuario, setUsuario] = useState("catanacomics");
+    const [urlFoto, setUrlFoto] = useState("assets/img/catanacomics.svg")
+
+    function mudarUsuario() {
+
+        const novoUsuario = prompt("Digite o nome do novo usuário")
+
+        if (novoUsuario) {
+            setUsuario(novoUsuario)
+        }
+
     }
-    chanceName(newName);
-  };
 
-  const userImg = () => {
-    let newImg = prompt("Entre com o link de uma imagem");
-    if (newImg.trim().length == 0 || newImg === null || newImg === undefined) {
-      return;
+    function mudarUrlFoto() {
+
+        const novaUrlFoto = prompt("Digite a URL da nova foto")
+
+        if (novaUrlFoto) {
+            setUrlFoto(novaUrlFoto)
+        }
+
     }
-    chanceImg(newImg);
-  };
-  return (
-    <div className="profileCard">
-      <img onClick={userImg} data-test="profile-image" src={img} />
-      <div>
-        <h4>@user_driven</h4>
-        <div>
-          <p data-test="name">{name}</p>
-          <ion-icon data-test="edit-name" name="create-outline" onClick={userName}></ion-icon>
+
+    return (
+        <div class="usuario">
+            <img data-test="profile-image" onClick={mudarUrlFoto} src={urlFoto} alt="imagem de perfil"/>
+            <div class="texto">
+                <span>
+                    <strong data-test="name">{usuario}</strong>
+                    <ion-icon onClick={mudarUsuario} data-test="edit-name" name="pencil"></ion-icon>
+                </span>
+            </div>
         </div>
-      </div>
-    </div>
-  );
-};
-export default Usuario;
+    )
+}

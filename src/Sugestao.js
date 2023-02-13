@@ -1,16 +1,15 @@
-import React from "react";
-const Sugestao = ({ id, userId, name }) => (
-  <div className="usuarioSugeridoCard">
-    <div className="sugestãoCardContent">
-      <div>
-        <img id={`hint${id}`} alt="" />
-      </div>
-      <div>
-        <h4>{userId}</h4>
-        <p>{name}</p>
-      </div>
-    </div>
-    <h4>Seguir</h4>
-  </div>
-);
-export default Sugestao;
+export default function Sugestao(props) {
+    return(
+        <div class="sugestao">
+            <div class="usuario">
+                <img src={props.url} alt={props.usuario} />
+                <div class="texto">
+                    <div class="nome">{props.usuario}</div>
+                    <div class="razao">{props.razao}</div>
+                </div>
+            </div>
+
+            <div class="seguir">Seguir</div>
+        </div>
+    )
+}
