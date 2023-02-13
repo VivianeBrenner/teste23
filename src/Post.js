@@ -38,12 +38,12 @@ export default function Post(props) {
 
     }
     
-    function addCurtidaClassesPost() {
+    function addCurtidaClassesPost() { //aqui eu adiciono a classe post-curtido
 
-        if (classesPost === "post") {
-            setClassesPost("post post-curtido")
-            setIconeCoracao("heart")
-            alteraCurtidas(1) 
+        if (classesPost === "post") { //aqui eu verifico se a classe post-curtido já existe
+            setClassesPost("post post-curtido") //aqui eu adiciono a classe post-curtido
+            setIconeCoracao("heart") //aqui eu mudo o ícone do coração
+            alteraCurtidas(1) //aqui eu atualizo o número de curtidas
         }
     }
 
@@ -63,8 +63,8 @@ export default function Post(props) {
     return(
         <div data-test="post" className={classesPost}>
             <div class="topo">
-                <div class="usuario" data-test="post-image">
-                    <img src={props.urlUsuario} alt={props.usuario}/> 
+                <div class="usuario">
+                    <img  data-test="post-image" src={props.urlUsuario} alt={props.usuario}/> 
                     {props.usuario} 
                 </div>
                 <div class="acoes">
@@ -72,9 +72,9 @@ export default function Post(props) {
                 </div>
             </div>
 
-            <div class="conteudo">
+            <div class="conteudo" >
                 <ion-icon name="heart"></ion-icon>
-                <img onDoubleClick={addCurtidaClassesPost} src={props.urlConteudo} alt={props.altConteudo}/> 
+                <img  data-test="post-image" onDoubleClick={addCurtidaClassesPost} src={props.urlConteudo} alt={props.altConteudo}/> 
             </div>
 
             <div class="fundo">
