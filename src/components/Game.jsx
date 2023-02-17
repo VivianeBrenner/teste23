@@ -95,7 +95,7 @@ export default function Game() {
       <HangmanContainerStyle>
         <Hangman errorCount={errorsCount} />
         <WordContainerStyle>
-          <PickWordBtn onClick={pickWord}>Escolher Palavra</PickWordBtn>
+          <PickWordBtn data-test="choose-word" onClick={pickWord}>Escolher Palavra</PickWordBtn>
           <Word
             endGame={endGame()}
             isWinner={isWinner()}
