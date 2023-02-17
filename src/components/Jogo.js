@@ -14,7 +14,7 @@ export default function Jogo(props) {
     return (
         <ContainerForca>
             <img src={imagens[erros]} alt="forca" />
-            <BotaoEscolher onClick={iniciarJogo}>Escolher Palavra</BotaoEscolher>
+            <BotaoEscolher data-test="choose-word" onClick={iniciarJogo}>Escolher Palavra</BotaoEscolher>
             <Palavra corPalavra={corPalavra}>{palavraJogo}</Palavra>
         </ContainerForca>
     )
